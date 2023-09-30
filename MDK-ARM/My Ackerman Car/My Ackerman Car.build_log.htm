@@ -22,16 +22,21 @@ Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
 D:\my STM32 project\My Ackerman Car\MDK-ARM\My Ackerman Car.uvprojx
-Project File Date:  09/27/2023
+Project File Date:  09/30/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'My Ackerman Car'
 compiling stm32f1xx_it.c...
+../Core/Src/stm32f1xx_it.c(322): warning:  #177-D: variable "Usart_Receive"  was declared but never referenced
+          uint8_t Usart_Receive;
+../Core/Src/stm32f1xx_it.c(325): warning:  #177-D: variable "flag"  was declared but never referenced
+  		int check=0,error=1,i,flag=1;
+../Core/Src/stm32f1xx_it.c: 2 warnings, 0 errors
 linking...
-Program Size: Code=14550 RO-data=310 RW-data=60 ZI-data=1580  
+Program Size: Code=22456 RO-data=776 RW-data=188 ZI-data=1596  
 FromELF: creating hex file...
-"My Ackerman Car\My Ackerman Car.axf" - 0 Error(s), 0 Warning(s).
+"My Ackerman Car\My Ackerman Car.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -55,7 +60,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.5.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

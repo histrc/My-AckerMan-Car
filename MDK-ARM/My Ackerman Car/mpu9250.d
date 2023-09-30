@@ -33,4 +33,5 @@ my ackerman car\mpu9250.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr
 my ackerman car\mpu9250.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 my ackerman car\mpu9250.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 my ackerman car\mpu9250.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+my ackerman car\mpu9250.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 my ackerman car\mpu9250.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

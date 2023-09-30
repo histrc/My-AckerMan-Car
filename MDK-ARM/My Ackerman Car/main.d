@@ -30,6 +30,7 @@ my ackerman car\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 my ackerman car\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 my ackerman car\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 my ackerman car\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+my ackerman car\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 my ackerman car\main.o: ../Core/Inc/adc.h
 my ackerman car\main.o: ../Core/Inc/tim.h
 my ackerman car\main.o: ../Core/Inc/usart.h
@@ -40,3 +41,4 @@ my ackerman car\main.o: ../Core/Inc/mpu9250.h
 my ackerman car\main.o: ../Core/Inc/IIC.h
 my ackerman car\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 my ackerman car\main.o: ../Core/Inc/pid.h
+my ackerman car\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
